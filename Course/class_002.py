@@ -1,0 +1,5 @@
+print ("Can you tell me your birthdate?")
+day = input("wich day? ")
+month = input("wich month? ")
+year = input("wich year? ")
+print ("You born on", day, "of", month, year, "is that correct?") 
