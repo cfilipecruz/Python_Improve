@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dce198b5-b1ff-4f31-83c0-770b896952db" name="Changes" comment="More chanllenges done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_005.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_005.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_006.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_006.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_007.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_007.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_008.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_008.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_009.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_009.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_010.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_010.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_011.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_011.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_012.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_012.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_013.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_013.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_014.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_014.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/ex_015.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/ex_015.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course/class_008.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course/class_008.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +59,7 @@
     "Python.challenges_013.executor": "Run",
     "Python.class_006.executor": "Run",
     "Python.class_007.executor": "Run",
+    "Python.class_008.executor": "Run",
     "Python.create classes files.executor": "Run",
     "Python.ex_001.executor": "Run",
     "Python.ex_002.executor": "Run",
@@ -79,6 +70,7 @@
     "Python.ex_012.executor": "Run",
     "Python.ex_013.executor": "Run",
     "Python.ex_014.executor": "Run",
+    "Python.ex_015.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -101,7 +93,30 @@
       <recent name="D:\Projetos\2024\Python\Learning\Learning_Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex_014">
+  <component name="RunManager" selected="Python.class_008">
+    <configuration name="class_008" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Course" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Course/class_008.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ex_001" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Learning_Python" />
       <option name="ENV_FILES" value="" />
@@ -117,52 +132,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\Projetos\2024\Python\Learning\Learning_Python\Exercises\ex_001.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex_010" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Learning_Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/ex_010.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex_011" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Learning_Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/ex_011.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,13 +209,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex_015" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/ex_015.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.class_008" />
+        <item itemvalue="Python.ex_015" />
         <item itemvalue="Python.ex_014" />
         <item itemvalue="Python.ex_013" />
         <item itemvalue="Python.ex_012" />
-        <item itemvalue="Python.ex_011" />
-        <item itemvalue="Python.ex_010" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +263,7 @@
       <workItem from="1717622481393" duration="164000" />
       <workItem from="1717622656364" duration="4365000" />
       <workItem from="1717837491482" duration="6573000" />
-      <workItem from="1718015232617" duration="2069000" />
+      <workItem from="1718015232617" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="Learning more python, but not the first python">
       <option name="closed" value="true" />
@@ -345,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717844090726</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="More chanllenges done">
+      <option name="closed" value="true" />
+      <created>1718017678156</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718017678156</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +374,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning_Python$ex_003.coverage" NAME="ex_003 Coverage Results" MODIFIED="1717837691587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/Learning_Python$ex_012.coverage" NAME="ex_012 Coverage Results" MODIFIED="1718015992762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/Learning_Python$ex_015.coverage" NAME="ex_015 Coverage Results" MODIFIED="1718017584397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/Learning_Python$challenges_009.coverage" NAME="challenges_009 Coverage Results" MODIFIED="1717842736785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Challenges" />
     <SUITE FILE_PATH="coverage/Learning_Python$class_007.coverage" NAME="class_007 Coverage Results" MODIFIED="1717841628979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course" />
     <SUITE FILE_PATH="coverage/Learning_Python$A_create_challenges_files.coverage" NAME="A_create_challenges_files Coverage Results" MODIFIED="1717841764389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Challenges" />
@@ -383,6 +384,7 @@
     <SUITE FILE_PATH="coverage/Learning_Python$challenges_013.coverage" NAME="challenges_013 Coverage Results" MODIFIED="1717844063848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Challenges" />
     <SUITE FILE_PATH="coverage/Learning_Python$ex_001.coverage" NAME="ex_001 Coverage Results" MODIFIED="1717754818312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learning_Python$ex_004.coverage" NAME="ex_004 Coverage Results" MODIFIED="1717838516736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/Learning_Python$class_008.coverage" NAME="class_008 Coverage Results" MODIFIED="1718019355719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course" />
     <SUITE FILE_PATH="coverage/Learning_Python$ex_010.coverage" NAME="ex_010 Coverage Results" MODIFIED="1718015842292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/Learning_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1717620271583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learning_Python$ex_013.coverage" NAME="ex_013 Coverage Results" MODIFIED="1718016492367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
