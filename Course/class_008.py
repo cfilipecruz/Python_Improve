@@ -7,5 +7,5 @@ import emoji
 #Round up
 #print('The square root of {} is {}'.format(num, ceil(square)))
 
-print(emoji.emojize('Python is :thumbs_up:'))
+print(emoji.emojize('Python is :thumbsup:', language='alias'))
 
