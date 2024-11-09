@@ -1,0 +1,904 @@
+{
+    "Viana do Castelo": {
+        "id": 1,
+        "color": [255, 165, 0],
+        "cities": {
+            "Viana do Castelo": {
+                "id": 101,
+                "attractions": [
+                    {
+                        "id": 10101,
+                        "name": "Santuário de Santa Luzia",
+                        "description": "A basilica with views over the Minho region.",
+                        "image": "santuario_santa_luzia.jpg",
+                        "video": "santuario_video.mp4",
+                        "icon": "santa_luzia_icon.png"
+                    },
+                    {
+                        "id": 10102,
+                        "name": "Praia do Cabedelo",
+                        "description": "A popular beach for surfing and relaxing.",
+                        "image": "praia_do_cabedelo.jpg",
+                        "video": "cabedelo_beach_video.mp4",
+                        "icon": "cabedelo_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10103,
+                        "name": "Arroz de Sarrabulho",
+                        "description": "A traditional rice dish with pork and spices.",
+                        "image": "arroz_de_sarrabulho.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10104,
+                        "name": "Artesanato Minho",
+                        "description": "Shop selling local handicrafts.",
+                        "icon": "artesanato_minho_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10105,
+                        "name": "Hiking in Serra de Arga",
+                        "description": "Nature trails in the scenic mountain range."
+                    }
+                ]
+            }
+        }
+    },
+    "Braga": {
+        "id": 2,
+        "color": [255, 255, 255],
+        "cities": {
+            "Braga": {
+                "id": 102,
+                "attractions": [
+                    {
+                        "id": 10201,
+                        "name": "Bom Jesus do Monte",
+                        "description": "A beautiful neoclassical church and sanctuary with baroque stairway.",
+                        "image": "bom_jesus_do_monte.jpg",
+                        "video": "bom_jesus_video.mp4",
+                        "icon": "bom_jesus_icon.png"
+                    },
+                    {
+                        "id": 10202,
+                        "name": "Sé de Braga",
+                        "description": "The oldest cathedral in Portugal, showcasing Romanesque architecture.",
+                        "image": "se_de_braga.jpg",
+                        "video": "se_braga_video.mp4",
+                        "icon": "se_braga_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10203,
+                        "name": "Bacalhau à Braga",
+                        "description": "Salted codfish with onions and potatoes.",
+                        "image": "bacalhau_a_braga.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10204,
+                        "name": "Mercado do Bom Jesus",
+                        "description": "Local market with fresh produce and crafts.",
+                        "icon": "mercado_bom_jesus_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10205,
+                        "name": "Cable car ride",
+                        "description": "Take a scenic cable car ride to Bom Jesus Sanctuary."
+                    }
+                ]
+            }
+        }
+    },
+    "Vila Real": {
+        "id": 3,
+        "color": [128, 0, 32],
+        "cities": {
+            "Vila Real": {
+                "id": 103,
+                "attractions": [
+                    {
+                        "id": 10301,
+                        "name": "Palácio de Mateus",
+                        "description": "An 18th-century palace with beautiful gardens.",
+                        "image": "palacio_de_mateus.jpg",
+                        "video": "palacio_mateus_video.mp4",
+                        "icon": "mateus_palace_icon.png"
+                    },
+                    {
+                        "id": 10302,
+                        "name": "Parque Natural do Alvão",
+                        "description": "A natural park with waterfalls, trails, and wildlife.",
+                        "image": "parque_alvao.jpg",
+                        "video": "alvao_park_video.mp4",
+                        "icon": "alvao_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10303,
+                        "name": "Bola de Carne",
+                        "description": "A savory bread with assorted meats.",
+                        "image": "bola_de_carne.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10304,
+                        "name": "Loja do Palácio",
+                        "description": "Gift shop with local crafts and souvenirs.",
+                        "icon": "palacio_loja_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10305,
+                        "name": "Wine Tasting at Mateus Palace",
+                        "description": "Sample locally produced wines from the Douro region."
+                    }
+                ]
+            }
+        }
+    },
+    "Bragança": {
+        "id": 4,
+        "color": [255, 140, 0],
+        "cities": {
+            "Bragança": {
+                "id": 104,
+                "attractions": [
+                    {
+                        "id": 10401,
+                        "name": "Castelo de Bragança",
+                        "description": "A well-preserved medieval castle in northeastern Portugal.",
+                        "image": "castelo_de_braganca.jpg",
+                        "video": "braganca_castle_video.mp4",
+                        "icon": "braganca_castle_icon.png"
+                    },
+                    {
+                        "id": 10402,
+                        "name": "Museu do Abade de Baçal",
+                        "description": "A museum showcasing artifacts and art from the region.",
+                        "image": "museu_abade_bacal.jpg",
+                        "video": "abade_bacal_museum_video.mp4",
+                        "icon": "abade_museum_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10403,
+                        "name": "Butelo com Cascas",
+                        "description": "A traditional dish with pork and beans.",
+                        "image": "butelo_com_cascas.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10404,
+                        "name": "Artesanato de Bragança",
+                        "description": "Handcrafted items and pottery from the region.",
+                        "icon": "artesanato_braganca_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10405,
+                        "name": "Visit to Montesinho Natural Park",
+                        "description": "Explore one of Portugal's most scenic natural parks."
+                    }
+                ]
+            }
+        }
+    },
+    "Porto": {
+        "id": 5,
+        "color": [0, 0, 139],
+        "cities": {
+            "Porto": {
+                "id": 105,
+                "attractions": [
+                    {
+                        "id": 10501,
+                        "name": "Torre dos Clérigos",
+                        "description": "An iconic 18th-century baroque tower offering panoramic views of Porto.",
+                        "image": "torre_dos_clerigos.jpg",
+                        "video": "clerigos_tower_video.mp4",
+                        "icon": "clerigos_icon.png"
+                    },
+                    {
+                        "id": 10502,
+                        "name": "Livraria Lello",
+                        "description": "One of the world’s most beautiful bookstores, featuring neo-Gothic architecture.",
+                        "image": "livraria_lello.jpg",
+                        "video": "lello_library_video.mp4",
+                        "icon": "lello_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10503,
+                        "name": "Francesinha",
+                        "description": "A sandwich with cured meats, melted cheese, and spicy sauce.",
+                        "image": "francesinha.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10504,
+                        "name": "Mercado do Bolhão",
+                        "description": "Historic market offering fresh produce, flowers, and traditional foods.",
+                        "icon": "mercado_bolhao_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10505,
+                        "name": "Port Wine Tasting in Vila Nova de Gaia",
+                        "description": "Sample Porto's famous wine in the cellars across the Douro River."
+                    }
+                ]
+            }
+        }
+    },
+    "Aveiro": {
+        "id": 6,
+        "color": [135, 206, 235],
+        "cities": {
+            "Aveiro": {
+                "id": 106,
+                "attractions": [
+                    {
+                        "id": 10601,
+                        "name": "Ria de Aveiro",
+                        "description": "A scenic lagoon with traditional moliceiro boats.",
+                        "image": "ria_de_aveiro.jpg",
+                        "video": "ria_aveiro_video.mp4",
+                        "icon": "ria_aveiro_icon.png"
+                    },
+                    {
+                        "id": 10602,
+                        "name": "Museu de Aveiro",
+                        "description": "A museum dedicated to the history of Aveiro.",
+                        "image": "museu_de_aveiro.jpg",
+                        "video": "aveiro_museum_video.mp4",
+                        "icon": "museu_aveiro_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10603,
+                        "name": "Ovos Moles",
+                        "description": "A traditional sweet made of egg yolk and sugar, wrapped in rice paper.",
+                        "image": "ovos_moles.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10604,
+                        "name": "Artesanato e Doces Regionais",
+                        "description": "Shop selling local handicrafts and sweets.",
+                        "icon": "artesanato_doces_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10605,
+                        "name": "Boat tour on Ria de Aveiro",
+                        "description": "Take a moliceiro boat tour around the canals of Aveiro."
+                    }
+                ]
+            }
+        }
+    },
+    "Viseu": {
+        "id": 7,
+        "color": [107, 142, 35],
+        "cities": {
+            "Viseu": {
+                "id": 107,
+                "attractions": [
+                    {
+                        "id": 10701,
+                        "name": "Sé de Viseu",
+                        "description": "A cathedral with a blend of Gothic and Manueline architectural styles.",
+                        "image": "se_de_viseu.jpg",
+                        "video": "viseu_cathedral_video.mp4",
+                        "icon": "viseu_cathedral_icon.png"
+                    },
+                    {
+                        "id": 10702,
+                        "name": "Museu Grão Vasco",
+                        "description": "Museum showcasing works by the painter Grão Vasco and other Portuguese artists.",
+                        "image": "museu_grao_vasco.jpg",
+                        "video": "grao_vasco_museum_video.mp4",
+                        "icon": "grao_vasco_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10703,
+                        "name": "Vinho do Dão",
+                        "description": "Wine from the Dão region, known for its quality and depth.",
+                        "image": "dao_wine.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10704,
+                        "name": "Mercado 2 de Maio",
+                        "description": "Local market offering fresh produce, meats, and cheeses.",
+                        "icon": "mercado_maio_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10705,
+                        "name": "Wine Tasting in Dão Region",
+                        "description": "Explore and taste wines from the nearby Dão vineyards."
+                    }
+                ]
+            }
+        }
+    },
+    "Guarda": {
+        "id": 8,
+        "color": [0, 128, 128],
+        "cities": {
+            "Guarda": {
+                "id": 108,
+                "attractions": [
+                    {
+                        "id": 10801,
+                        "name": "Sé da Guarda",
+                        "description": "A Gothic cathedral with impressive architecture and panoramic views.",
+                        "image": "se_da_guarda.jpg",
+                        "video": "se_guarda_video.mp4",
+                        "icon": "se_guarda_icon.png"
+                    },
+                    {
+                        "id": 10802,
+                        "name": "Parque Natural da Serra da Estrela",
+                        "description": "Portugal's highest mountain range, offering hiking, skiing, and breathtaking views.",
+                        "image": "serra_estrela.jpg",
+                        "video": "serra_estrela_video.mp4",
+                        "icon": "serra_estrela_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10803,
+                        "name": "Queijo da Serra",
+                        "description": "A creamy cheese made from sheep’s milk, iconic to the Serra da Estrela region.",
+                        "image": "queijo_da_serra.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10804,
+                        "name": "Artesanato da Serra",
+                        "description": "Shop offering wool products, cheeses, and local crafts.",
+                        "icon": "artesanato_serra_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10805,
+                        "name": "Skiing in Serra da Estrela",
+                        "description": "Enjoy Portugal's only ski resort, located in Serra da Estrela."
+                    }
+                ]
+            }
+        }
+    },
+    "Coimbra": {
+        "id": 9,
+        "color": [128, 0, 128],
+        "cities": {
+            "Coimbra": {
+                "id": 109,
+                "attractions": [
+                    {
+                        "id": 10901,
+                        "name": "Universidade de Coimbra",
+                        "description": "One of the oldest universities in Europe, a UNESCO World Heritage Site.",
+                        "image": "universidade_de_coimbra.jpg",
+                        "video": "coimbra_university_video.mp4",
+                        "icon": "university_icon.png"
+                    },
+                    {
+                        "id": 10902,
+                        "name": "Biblioteca Joanina",
+                        "description": "A stunning baroque library located at the University of Coimbra.",
+                        "image": "biblioteca_joanina.jpg",
+                        "video": "joanina_library_video.mp4",
+                        "icon": "joanina_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 10903,
+                        "name": "Leitão da Bairrada",
+                        "description": "Roasted piglet with crispy skin, a delicacy from the Bairrada region.",
+                        "image": "leitao_bairrada.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 10904,
+                        "name": "Feira de Artesanato",
+                        "description": "An artisan fair offering traditional crafts from Coimbra.",
+                        "icon": "artesanato_feira_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 10905,
+                        "name": "Fado Concerts",
+                        "description": "Experience traditional Fado music performed by students in Coimbra."
+                    }
+                ]
+            }
+        }
+    },
+    "Castelo Branco": {
+        "id": 10,
+        "color": [255, 215, 0],
+        "cities": {
+            "Castelo Branco": {
+                "id": 110,
+                "attractions": [
+                    {
+                        "id": 11001,
+                        "name": "Jardim do Paço Episcopal",
+                        "description": "A baroque garden with intricate statues and fountains.",
+                        "image": "jardim_paco_episcopal.jpg",
+                        "video": "jardim_paco_video.mp4",
+                        "icon": "jardim_paco_icon.png"
+                    },
+                    {
+                        "id": 11002,
+                        "name": "Museu Cargaleiro",
+                        "description": "Museum featuring the works of the artist Manuel Cargaleiro.",
+                        "image": "museu_cargaleiro.jpg",
+                        "video": "cargaleiro_museum_video.mp4",
+                        "icon": "cargaleiro_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11003,
+                        "name": "Cabrito Estonado",
+                        "description": "Roast goat with crispy skin, a specialty of the region.",
+                        "image": "cabrito_estonado.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11004,
+                        "name": "Loja de Artesanato",
+                        "description": "A store with local handicrafts and souvenirs from Castelo Branco.",
+                        "icon": "artesanato_castelo_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11005,
+                        "name": "Hiking in Serra da Gardunha",
+                        "description": "Explore trails with scenic views and historical sites."
+                    }
+                ]
+            }
+        }
+    },
+    "Leiria": {
+        "id": 11,
+        "color": [211, 211, 211],
+        "cities": {
+            "Leiria": {
+                "id": 111,
+                "attractions": [
+                    {
+                        "id": 11101,
+                        "name": "Castelo de Leiria",
+                        "description": "A medieval castle offering panoramic views of the surrounding city.",
+                        "image": "castelo_de_leiria.jpg",
+                        "video": "leiria_castle_video.mp4",
+                        "icon": "leiria_castle_icon.png"
+                    },
+                    {
+                        "id": 11102,
+                        "name": "Praia do Pedrógão",
+                        "description": "A popular beach near Leiria, ideal for swimming and relaxation.",
+                        "image": "praia_pedrogao.jpg",
+                        "video": "pedrogao_beach_video.mp4",
+                        "icon": "pedrogao_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11103,
+                        "name": "Morcelas de Arroz",
+                        "description": "A blood sausage with rice, commonly enjoyed in the region.",
+                        "image": "morcelas_de_arroz.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11104,
+                        "name": "Mercado de Leiria",
+                        "description": "A market with fresh produce, meats, cheeses, and traditional foods.",
+                        "icon": "mercado_leiria_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11105,
+                        "name": "Visit Praia da Vieira",
+                        "description": "A nearby beach perfect for a day trip from Leiria."
+                    }
+                ]
+            }
+        }
+    },
+    "Santarém": {
+        "id": 12,
+        "color": [255, 105, 180],
+        "cities": {
+            "Santarém": {
+                "id": 112,
+                "attractions": [
+                    {
+                        "id": 11201,
+                        "name": "Jardim das Portas do Sol",
+                        "description": "A park offering views of the Tagus River and medieval ruins.",
+                        "image": "jardim_portas_do_sol.jpg",
+                        "video": "jardim_portas_video.mp4",
+                        "icon": "portas_do_sol_icon.png"
+                    },
+                    {
+                        "id": 11202,
+                        "name": "Igreja da Graça",
+                        "description": "A 14th-century Gothic church with historical significance.",
+                        "image": "igreja_da_graca.jpg",
+                        "video": "igreja_graca_video.mp4",
+                        "icon": "igreja_graca_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11203,
+                        "name": "Ensopado de Borrego",
+                        "description": "A traditional lamb stew with garlic and coriander.",
+                        "image": "ensopado_de_borrego.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11204,
+                        "name": "Artesanato Ribatejano",
+                        "description": "A store offering traditional handicrafts from the Ribatejo region.",
+                        "icon": "artesanato_ribatejano_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11205,
+                        "name": "Boat ride on the Tagus River",
+                        "description": "Scenic river tours showcasing Santarém's landscape."
+                    }
+                ]
+            }
+        }
+    },
+    "Lisboa": {
+        "id": 13,
+        "color": [255, 0, 0],
+        "cities": {
+            "Lisboa": {
+                "id": 113,
+                "attractions": [
+                    {
+                        "id": 11301,
+                        "name": "Torre de Belém",
+                        "description": "A famous fortress and UNESCO World Heritage Site.",
+                        "image": "torre_de_belem.jpg",
+                        "video": "belem_tower_video.mp4",
+                        "icon": "belem_icon.png"
+                    },
+                    {
+                        "id": 11302,
+                        "name": "Mosteiro dos Jerónimos",
+                        "description": "A 16th-century monastery with stunning Manueline architecture.",
+                        "image": "mosteiro_jeronimos.jpg",
+                        "video": "jeronimos_video.mp4",
+                        "icon": "jeronimos_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11303,
+                        "name": "Pastel de Nata",
+                        "description": "Custard tart pastry that is a staple of Portuguese cuisine.",
+                        "image": "pastel_de_nata.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11304,
+                        "name": "Armazéns do Chiado",
+                        "description": "Historic shopping center in the heart of Lisbon.",
+                        "icon": "chiado_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11305,
+                        "name": "Tram 28 Ride",
+                        "description": "Take a historic tram through Lisbon's neighborhoods for a scenic tour."
+                    }
+                ]
+            }
+        }
+    },
+    "Portalegre": {
+        "id": 14,
+        "color": [139, 69, 19],
+        "cities": {
+            "Portalegre": {
+                "id": 114,
+                "attractions": [
+                    {
+                        "id": 11401,
+                        "name": "Museu de Tapeçarias de Portalegre",
+                        "description": "A museum showcasing Portalegre's unique tapestries.",
+                        "image": "museu_tapecarias.jpg",
+                        "video": "museu_tapecarias_video.mp4",
+                        "icon": "tapecarias_icon.png"
+                    },
+                    {
+                        "id": 11402,
+                        "name": "Castelo de Portalegre",
+                        "description": "A medieval castle offering views over the town.",
+                        "image": "castelo_portalegre.jpg",
+                        "video": "portalegre_castle_video.mp4",
+                        "icon": "portalegre_castle_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11403,
+                        "name": "Sarapatel de Borrego",
+                        "description": "A traditional lamb stew unique to the region.",
+                        "image": "sarapatel_de_borrego.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11404,
+                        "name": "Mercado Municipal de Portalegre",
+                        "description": "Local market offering fresh produce and traditional products.",
+                        "icon": "mercado_portalegre_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11405,
+                        "name": "Visit Serra de São Mamede",
+                        "description": "Nature trails and wildlife in this beautiful natural park."
+                    }
+                ]
+            }
+        }
+    },
+    "Setúbal": {
+        "id": 15,
+        "color": [92, 64, 51],
+        "cities": {
+            "Setúbal": {
+                "id": 115,
+                "attractions": [
+                    {
+                        "id": 11501,
+                        "name": "Parque Natural da Arrábida",
+                        "description": "A natural park with scenic beaches and hills along the coastline.",
+                        "image": "parque_arrabida.jpg",
+                        "video": "arrabida_park_video.mp4",
+                        "icon": "arrabida_icon.png"
+                    },
+                    {
+                        "id": 11502,
+                        "name": "Castelo de São Filipe",
+                        "description": "A 16th-century fortress with views over the city and sea.",
+                        "image": "castelo_sao_filipe.jpg",
+                        "video": "sao_filipe_castle_video.mp4",
+                        "icon": "sao_filipe_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11503,
+                        "name": "Choco Frito",
+                        "description": "Fried cuttlefish, a specialty of Setúbal.",
+                        "image": "choco_frito.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11504,
+                        "name": "Mercado do Livramento",
+                        "description": "A market famous for its fresh seafood and tiled interior.",
+                        "icon": "mercado_livramento_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11505,
+                        "name": "Dolphin Watching",
+                        "description": "Boat tours in the Sado River to observe wild dolphins."
+                    }
+                ]
+            }
+        }
+    },
+    "Évora": {
+        "id": 16,
+        "color": [255, 255, 0],
+        "cities": {
+            "Évora": {
+                "id": 116,
+                "attractions": [
+                    {
+                        "id": 11601,
+                        "name": "Templo Romano de Évora",
+                        "description": "An ancient Roman temple, also known as the Temple of Diana.",
+                        "image": "templo_romano_de_evora.jpg",
+                        "video": "templo_evora_video.mp4",
+                        "icon": "templo_romano_icon.png"
+                    },
+                    {
+                        "id": 11602,
+                        "name": "Capela dos Ossos",
+                        "description": "A chapel decorated with human bones, a unique and solemn site.",
+                        "image": "capela_dos_ossos.jpg",
+                        "video": "capela_ossos_video.mp4",
+                        "icon": "capela_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11603,
+                        "name": "Açorda Alentejana",
+                        "description": "A traditional Alentejo bread-based soup with garlic and cilantro.",
+                        "image": "acorda_alentejana.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11604,
+                        "name": "Artesanato Alentejano",
+                        "description": "A store featuring traditional Alentejo pottery and crafts.",
+                        "icon": "artesanato_alentejano_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11605,
+                        "name": "Wine Tasting in Alentejo",
+                        "description": "Sample fine wines from Évora's renowned vineyards."
+                    }
+                ]
+            }
+        }
+    },
+    "Beja": {
+        "id": 17,
+        "color": [210, 180, 140],
+        "cities": {
+            "Beja": {
+                "id": 117,
+                "attractions": [
+                    {
+                        "id": 11701,
+                        "name": "Castelo de Beja",
+                        "description": "A medieval castle with a tall keep and historical architecture.",
+                        "image": "castelo_de_beja.jpg",
+                        "video": "beja_castle_video.mp4",
+                        "icon": "beja_castle_icon.png"
+                    },
+                    {
+                        "id": 11702,
+                        "name": "Museu Regional de Beja",
+                        "description": "Museum showcasing local history and artifacts.",
+                        "image": "museu_regional_beja.jpg",
+                        "video": "museu_beja_video.mp4",
+                        "icon": "museu_beja_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11703,
+                        "name": "Migas à Alentejana",
+                        "description": "A traditional Alentejo dish made with bread, garlic, and pork.",
+                        "image": "migas_alentejana.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11704,
+                        "name": "Artesanato de Beja",
+                        "description": "Shop offering locally crafted pottery and souvenirs.",
+                        "icon": "artesanato_beja_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11705,
+                        "name": "Explore Alqueva Lake",
+                        "description": "Water activities like kayaking and boat tours on Portugal's largest artificial lake."
+                    }
+                ]
+            }
+        }
+    },
+    "Faro (Algarve)": {
+        "id": 18,
+        "color": [34, 139, 34],
+        "cities": {
+            "Faro": {
+                "id": 118,
+                "attractions": [
+                    {
+                        "id": 11801,
+                        "name": "Ria Formosa Natural Park",
+                        "description": "A beautiful lagoon system with diverse wildlife and scenic views.",
+                        "image": "ria_formosa.jpg",
+                        "video": "ria_formosa_video.mp4",
+                        "icon": "ria_formosa_icon.png"
+                    },
+                    {
+                        "id": 11802,
+                        "name": "Arco da Vila",
+                        "description": "A historic archway leading to Faro’s old town.",
+                        "image": "arco_da_vila.jpg",
+                        "video": "arco_vila_video.mp4",
+                        "icon": "arco_icon.png"
+                    }
+                ],
+                "food": [
+                    {
+                        "id": 11803,
+                        "name": "Cataplana de Marisco",
+                        "description": "A seafood stew cooked in a copper cataplana, popular in the Algarve.",
+                        "image": "cataplana_de_marisco.jpg"
+                    }
+                ],
+                "stores": [
+                    {
+                        "id": 11804,
+                        "name": "Mercado Municipal de Faro",
+                        "description": "Market with fresh seafood, produce, and local crafts.",
+                        "icon": "mercado_faro_icon.png"
+                    }
+                ],
+                "activities": [
+                    {
+                        "id": 11805,
+                        "name": "Boat tour in Ria Formosa",
+                        "description": "Explore the stunning waters and islands of Ria Formosa by boat."
+                    }
+                ]
+            }
+        }
+    }
+}
+
+
