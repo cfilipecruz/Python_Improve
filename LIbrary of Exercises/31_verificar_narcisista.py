@@ -1,0 +1,1 @@
+# 31 verificar narcisista

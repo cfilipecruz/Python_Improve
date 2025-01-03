@@ -14,7 +14,7 @@ print("Value is only capital case?", value.isupper())
 print("Value is only lower case?", value.islower())
 # Verify if the variable can be a name of a variable falseex:1teste
 print("Value is only punctuation?", value.isidentifier())
-# Verify if the variable is printable falseex: teste\nteste
+# Verify if the variable is printable falseex: @response.py\n@response.py
 print("Value is only punctuation characters?", value.isprintable())
 # Verify if the variable is only spaces
 print("Value is only white space?", value.isspace())

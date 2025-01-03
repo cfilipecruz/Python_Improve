@@ -18,4 +18,4 @@ for i, v in enumerate(values):
     else:
         oddValues.append(v)
 print(f'The list with only pair numbers is: {pairValues}')
-print(f'Tghe list with only odd numbers is {oddValues}')
+print(f'The list with only odd numbers is {oddValues}')

@@ -15,4 +15,4 @@ cores={'redBold':'\033[1;31m',
        'blackandwhite':'\033[1;0;40m',
        }
 
-print('teste {a}')
+print('@response.py {a}')
