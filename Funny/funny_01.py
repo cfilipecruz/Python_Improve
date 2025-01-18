@@ -1,187 +1,127 @@
-import json
-import tkinter as tk
-from tkinter import Toplevel, simpledialog, messagebox
-from PIL import Image, ImageTk
-import os
-
-# Load JSON data
-json_file = "districts_data.json"
-assets_folder = "assets/images"
-
-with open(json_file, "r", encoding="utf-8") as file:
-    data = json.load(file)
+import pandas as pd
 
 
-# Function to save changes to the JSON file
-def save_data():
-    with open(json_file, "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
+class User:
+
+    def init(self, user_id, username, password, failed_attempts=0, is_locked=False):
+
+        self.user_id = user_id
+
+        self.username = username
+
+        self.password = password
+
+        self.failed_attempts = failed_attempts
+
+        self.is_locked = is_locked
 
 
-# Function to open district details with responsive categories
-def show_district_details(district_name, district_data):
-    details_window = Toplevel(root)
-    details_window.title(district_name)
-    details_window.geometry("600x600")
-    details_window.configure(bg="#f0f0f0")
+    def reset_failed_attempts(self):
 
-    # Dynamically place category buttons in a responsive grid
-    city_key = next(iter(district_data["cities"]))
-    categories = ["attractions", "food", "stores", "activities"]
-    row, col = 0, 0
+        self.failed_attempts = 0
 
-    for category in categories:
-        if category in district_data["cities"][city_key]:
-            button = tk.Button(
-                details_window,
-                text=f"{category.capitalize()}",
-                command=lambda c=category: show_category_menu(district_data["cities"][city_key][category],
-                                                              category.capitalize(), district_name, city_key),
-                font=("Helvetica", 12),
-                width=20,
-                pady=5
-            )
-            button.grid(row=row, column=col, padx=10, pady=10, sticky="nsew")
-            col += 1
-            if col > 2:  # Change number of columns to adapt layout
-                col = 0
-                row += 1
+        print(f"Failed attempts reset for user {self.username}.")
 
 
-# Function to open category menu and provide options to add, edit, or remove items
-def show_category_menu(items, category_name, district_name, city_key):
-    category_window = Toplevel(root)
-    category_window.title(f"{category_name} in {district_name}")
-    category_window.geometry("600x600")
-    category_window.configure(bg="#fafafa")
+    def increment_failed_attempts(self):
 
-    title_label = tk.Label(category_window, text=f"{category_name} in {district_name}", font=("Helvetica", 16, "bold"),
-                           bg="#fafafa")
-    title_label.pack(pady=10)
+        self.failed_attempts += 1
 
-    # Display items in a responsive grid layout
-    row, col = 0, 0
-    for item in items:
-        item_frame = tk.Frame(category_window, bg="#fafafa", bd=1, relief="solid")
-        item_frame.grid(row=row, column=col, padx=10, pady=10, sticky="nsew")
+        print(f"Failed attempts for {self.username}: {self.failed_attempts}")
 
-        # Display name and description
-        name_label = tk.Label(item_frame, text=item["name"], font=("Helvetica", 14, "bold"), bg="#fafafa")
-        name_label.pack(anchor="w")
+        if self.failed_attempts >= 3:
 
-        description_label = tk.Label(item_frame, text=item["description"], wraplength=250, bg="#fafafa")
-        description_label.pack(anchor="w")
-
-        # Display image if available
-        image_path = os.path.join(assets_folder, item.get("image", ""))
-        if item.get("image") and os.path.exists(image_path):
-            image = Image.open(image_path).resize((100, 75), Image.ANTIALIAS)
-            photo = ImageTk.PhotoImage(image)
-            image_label = tk.Label(item_frame, image=photo, bg="#fafafa")
-            image_label.image = photo
-            image_label.pack(anchor="w", pady=5)
-
-        # Edit and Remove buttons for each item
-        edit_button = tk.Button(item_frame, text="Edit", command=lambda i=item: edit_item(i, category_name, city_key),
-                                width=10)
-        edit_button.pack(side="left", padx=5)
-
-        remove_button = tk.Button(item_frame, text="Remove",
-                                  command=lambda i=item: remove_item(items, i, category_window), width=10)
-        remove_button.pack(side="right", padx=5)
-
-        col += 1
-        if col > 1:  # Adjust column count for responsiveness
-            col = 0
-            row += 1
-
-    # Add new item button
-    add_button = tk.Button(category_window, text=f"Add {category_name[:-1]}",
-                           command=lambda: add_item(items, category_name, city_key), font=("Helvetica", 12))
-    add_button.pack(pady=20)
+            self.lock_account()
 
 
-# Functions to add, edit, and remove items (same as before)
-def add_item(items, category_name, city_key):
-    name = simpledialog.askstring("Add Item", f"Enter {category_name[:-1]} name:")
-    if name:
-        description = simpledialog.askstring("Add Item", f"Enter description for {name}:")
-        image_name = simpledialog.askstring("Add Item", f"Enter image filename (in {assets_folder}):")
-        new_item = {"name": name, "description": description, "image": image_name}
-        items.append(new_item)
-        save_data()
-        messagebox.showinfo("Added", f"{category_name[:-1]} added successfully!")
+    def lock_account(self):
+
+        self.is_locked = True
+
+        print(f"Account for {self.username} has been locked due to too many failed login attempts.")
 
 
-def edit_item(item, category_name, city_key):
-    new_name = simpledialog.askstring("Edit Item", "Edit name:", initialvalue=item["name"])
-    if new_name:
-        item["name"] = new_name
-    new_description = simpledialog.askstring("Edit Item", "Edit description:", initialvalue=item["description"])
-    if new_description:
-        item["description"] = new_description
-    new_image = simpledialog.askstring("Edit Item", "Edit image filename:", initialvalue=item.get("image", ""))
-    if new_image:
-        item["image"] = new_image
-    save_data()
-    messagebox.showinfo("Updated", "Item updated successfully!")
+class AuthenticationSystem:
+
+    def init(self):
+
+        self.users = pd.DataFrame(columns=["user_id", "username", "password", "failed_attempts_left", "is_locked"])
 
 
-def remove_item(items, item, category_window):
-    if messagebox.askyesno("Confirm", f"Are you sure you want to delete {item['name']}?"):
-        items.remove(item)
-        save_data()
-        category_window.destroy()
-        show_category_menu(items, item["name"], "", "")
+def register_user(self, user_id, username, password):
 
+    new_user = User(user_id, username, password)
 
-# Main window
-root = tk.Tk()
-root.title("Districts of Portugal")
-root.geometry("800x600")
-root.configure(bg="#f0f0f0")
+    self.users = pd.concat([self.users, pd.DataFrame({
 
-title_label = tk.Label(root, text="Districts of Portugal", font=("Helvetica", 18, "bold"), bg="#f0f0f0")
-title_label.pack(pady=10)
+        "user_id": [user_id],
 
-# Frame for scrollable menu with grid layout
-canvas = tk.Canvas(root, bg="#f0f0f0")
-scrollbar = tk.Scrollbar(root, orient="vertical", command=canvas.yview)
-scroll_frame = tk.Frame(canvas, bg="#f0f0f0")
+        "username": [username],
 
-scroll_frame.bind(
-    "<Configure>",
-    lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
-)
-canvas.create_window((0, 0), window=scroll_frame, anchor="nw")
-canvas.configure(yscrollcommand=scrollbar.set)
+        "password": [password],
 
-# Load districts and display in a responsive grid
-row, col = 0, 0
-for district_name, district_info in data.items():
-    color_rgb = district_info["color"]
-    color_hex = f'#{color_rgb[0]:02x}{color_rgb[1]:02x}{color_rgb[2]:02x}'
+        "failed_attempts_left": [3],
 
-    district_button = tk.Button(
-        scroll_frame,
-        text=district_name,
-        bg=color_hex,
-        fg="black",
-        font=("Helvetica", 14, "bold"),
-        command=lambda dn=district_name, di=district_info: show_district_details(dn, di),
-        width=20,
-        height=2
-    )
-    district_button.grid(row=row, column=col, padx=10, pady=10, sticky="nsew")
+        "is_locked": [False]
 
-    col += 1
-    if col > 2:  # Adjust the column count here for responsiveness
-        col = 0
-        row += 1
+    })], ignore_index=True) # Add new user to DataFrame.
 
-# Pack canvas and scrollbar
-canvas.pack(side="left", fill="both", expand=True)
-scrollbar.pack(side="right", fill="y")
+    print(f"User {username} registered successfully.")
 
-# Start main loop
-root.mainloop()
+    def login(self, username, password):
+
+        user_row = self.users[self.users['username'].str.lower() == username.lower()]
+
+        if user_row.empty:
+            print(f"User {username} not found.")
+
+            return
+
+        user = User(user_row['user_id'].values[0], user_row['username'].values[0], user_row['password'].values[0],
+
+                    user_row['failed_attempts_left'].values[0], user_row['is_locked'].values[0])
+
+        if user.is_locked:
+            print(f"Account for {username} is locked. Please contact support.")
+
+            return
+
+        if password == password:
+
+            user.increment_failed_attempts()
+
+            user.reset_failed_attempts()
+
+            self.update_user(user)
+
+            print(f"User {username} logged in successfully.")
+
+        else:
+
+            user.reset_failed_attempts()
+
+            self.update_user(user)
+
+    def update_user(self, user):
+
+        self.users.loc[self.users['username'] == user.username, 'failed_attempts_left'] = user.failed_attempts
+
+        self.users.loc[self.users['username'] == user.username, 'is_locked'] = user.is_locked
+
+        print(f"User {user.username}'s data updated.")
+
+auth_system = AuthenticationSystem()
+
+auth_system.register_user(1, "neena", "password123")
+
+auth_system.register_user(2, "helios", "mysecurepassword")
+
+auth_system.login("neena", "password321")
+
+auth_system.login("Neena", "password123")
+
+auth_system.login("neena", "password321")
+
+auth_system.login("neena", "password123")
+
+auth_system.login("helios", "mysecurepassword")

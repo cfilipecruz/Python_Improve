@@ -21,3 +21,6 @@ if __name__ == "__main__":
     frase = input("Insira uma frase: ")
     numero_palavras = contar_palavras(frase)
     print(f"Número de palavras: {numero_palavras}")
+
+
+
