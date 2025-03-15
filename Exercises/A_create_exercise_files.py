@@ -1,5 +1,5 @@
 # Create files named ex_005 to ex_100
-for i in range(6, 101):
+for i in range(100, 121):
     file_name = f"ex_{i:03d}.py"
     with open(file_name, 'w') as file:
         pass  # Create an empty file
