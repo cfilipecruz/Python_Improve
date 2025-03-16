@@ -1,4 +1,4 @@
-people = above_average =list()
+people = above_average = list()
 person = dict()
 proceed = True
 total_ages = age_average = 0
